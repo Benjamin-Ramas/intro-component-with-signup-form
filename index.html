@@ -2,40 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="/src/css/main.css">
 </head>
 <body>
 
-  Learn to code by watching others
-
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
-
   Try it free 7 days then $20/mo. thereafter
-
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
+  <span class="main-body">
+    <span class="side-section">
+      <div class="intro-text">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+      </div>
+    </span>
+  
+    <span class="side-section">
+      <div class="promo">
+        <h2><span class="bold">Try it free 7 days</span> then $20/mo. thereafter
+        </h2>
+      </div>
+    
+      <div class="form-container">
+        <form>
+          <input placeholder="First Name">
+          <input placeholder="Last Name">
+          <input type="email" placeholder="Email Address">
+          <input type="password" placeholder="Password">
+        </form>
+        <button>Claim your free trial</button>
+        <p>By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
+      </div>
+    </span>
+  </span>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/Benjamin-Ramas"target="_blank">Benjamin Ramas</a>.
     </p>
   </footer>
 </body>
