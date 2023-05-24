@@ -38,7 +38,9 @@ Users should be able to:
 
 2. I then started blocking them out giving each element a background colour to distinguish the areas what areas they take up more clearly. This step generally has the most drastic changes style wise as I move around the different parts until I am satisfied.
 
-3. Once I am satisfied with the general layout I start polishing by adding all the smaller details such as font weight, font size, border radius, proper background colour, etc. 
+3. Once I am satisfied with the general layout I start polishing by adding all the smaller details such as font weight, font size, border radius, proper background colour, etc.
+
+4. I then focus on creating the javascript required to check the validity of the form. As well as any required tweaks to the html and css
 
 ### Built with
 
@@ -46,9 +48,6 @@ Users should be able to:
 - CSS custom properties
 - Sass
 
-### Continued development
-
-This project so far is still unfinished I am planning on adding js functionality in the future.
 
 ### Useful resources
 

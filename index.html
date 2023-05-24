@@ -15,7 +15,6 @@
 </head>
 <body>
 
-  Try it free 7 days then $20/mo. thereafter
   <span class="main-body">
     <span class="side-section">
       <div class="intro-text">
@@ -32,12 +31,33 @@
     
       <div class="form-container">
         <form>
-          <input placeholder="First Name">
-          <input placeholder="Last Name">
-          <input type="email" placeholder="Email Address">
-          <input type="password" placeholder="Password">
+          <span class="fill-out-input valid-input">
+            <img src="/images/icon-error.svg"></input>
+            <input placeholder="First Name" title="Please input first name">
+            <p>First Name cannot be empty</p>
+          </span>
+          
+          <span class="fill-out-input valid-input">
+            <img src="/images/icon-error.svg"></input>
+            <input placeholder="Last Name" title="Please input last name">
+            <p>Last Name cannot be empty</p>
+          </span>
+
+          <span class="fill-out-input valid-input">
+            <img src="/images/icon-error.svg"></input>
+            <input type="email" placeholder="Email Address" title="Please input email">
+            <p>Looks like this is not an email</p>
+          </span>
+
+          <span class="fill-out-input valid-input">
+            <img src="/images/icon-error.svg"></input>
+            <input type="password" placeholder="Password" title="Please input password">
+            <p>Password cannot be empty</p>
+          </span>
+          
+          <input onsubmit=false id="submit-button" type="button" value="Claim your free trial">
+
         </form>
-        <button>Claim your free trial</button>
         <p>By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
       </div>
     </span>
@@ -49,5 +69,7 @@
       Coded by <a href="https://github.com/Benjamin-Ramas"target="_blank">Benjamin Ramas</a>.
     </p>
   </footer>
+
+  <script src="/src/js/main.js"></script>
 </body>
 </html>
